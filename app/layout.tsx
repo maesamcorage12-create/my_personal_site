@@ -23,6 +23,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </Link>
         </nav>
         {children}
+        <footer className="mt-auto border-t border-gray-200 p-4 text-center text-gray-500 text-sm">
+          &copy; 2026 Mae Sam Corage. Built with Next.js.
+        </footer>
       </body>
     </html>
   );
